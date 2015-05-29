@@ -196,6 +196,12 @@ namespace Kopernicus
 				}
 			}
 
+            [ParserTarget("axialTilt", optional = true)]
+            private NumericParser<double> axialTilt
+            {
+                set { CBRotation.Create(celestialBody.name, value.value, celestialBody.rotationPeriod, celestialBody.initialRotation); }
+            }
+
 			void IParserEventSubscriber.Apply (ConfigNode node) { }
 
 			void IParserEventSubscriber.PostApply (ConfigNode node)
