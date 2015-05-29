@@ -1,6 +1,4 @@
 Kopernicus
 ==========
 
-Kopernicus is a mod for Kerbal Space Program which allows users to replace the planetary system used by the game.
-
-Pre Alpha/ - current pre-alpha release.  See Readme.md.
+THE CONTENT IN THIS BRANCH IS VERY UNSTABLE AND NOT USABLE IN A PRODUCTION ENVIRONMENT! PLEASE DONT USE IT!
